@@ -1,16 +1,20 @@
 # firebaseauthtest
 
-A new Flutter project.
+Authentification app using firebase Auth. 
 
-## Getting Started
+## packages
 
-This project is a starting point for a Flutter application.
+-Firebase Auth & Firebase core : used for authentication implementation
+-provider : used as state managment package
+-Mockito : generating mocks used in testing
+-flutter driver: used for integration test
 
-A few resources to get you started if this is your first Flutter project:
+##test
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-test_driver: integration testing ( testing interaction between widgets)
+-test/ui/pages: widget test (testing a single widget)
+-test/models : unit test (testing functions)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
